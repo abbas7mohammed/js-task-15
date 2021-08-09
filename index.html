@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="main">
+
+    <section class="sideNav">
+      <div class="container">
+          <div >
+            <img src="/img/images/logo.png" alt="logo" width="110px" height="110px">
+          </div>
+          <div style="display: flex; flex-direction: column;align-items: center;padding-top: 1px;">
+            <h3>Kolshi</h3>
+            <div class="kolshi_line"></div>
+          </div>
+            <div class="classify">
+              <div>
+                <a href="#sec_txt1">
+                  <i class="far fa-arrow-alt-circle-right">   Movies</i>
+                </a>
+              </div>
+              <div>
+                <a href="#sec_txt2">
+                  <i class="far fa-arrow-alt-circle-right">   Books</i>
+                </a>
+              </div>
+              <div>
+                <a href="#sec_txt3">
+                  <i class="far fa-arrow-alt-circle-right">   News</i>
+                </a>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <section class="contents" id="contents">
+        <!--Navbar -->
+        <nav class="mb-1 navbar navbar-expand-lg lighten-1" id="navbar">
+          <div>
+            <div class="input-group md-form form-sm form-1 pl-0" id="form">
+              <div class="input-group-prepend">
+                <span class="input-group-text red lighten-3" id="basic-text1" onclick="" style="cursor: grabbing;">
+                  <i class="fas fa-search text-white" aria-hidden="true" >
+                  </i>
+                </span>
+              </div>
+              <input class="form-control my-0 py-1" type="text" placeholder="type item and press enter" 
+              aria-label="Search" id="search" style="color: azure;">
+            </div>
+          </div>
+          <div>
+            <a href="#" onclick="changeMode()">
+              <i class="fas fa-sun" style="color: azure; font-size: 20px;" id="mode"></i>
+            </a>
+          </div>
+        </nav>
+        <!--/.Navbar -->
+        <div class="container-fluid">
+          <div class="row">
+            <div>
+              <h1 id="sec_txt1">Movie</h1>
+              <div id="section_line"></div>
+            </div>
+              <div class="dd" id="moviesDiv">
+
+              </div>
+              <div>
+                <h1 id="sec_txt2">Books</h1>
+                <div id="section_line"></div>
+              </div>
+              <div class="bookDiv">
+
+              </div>
+              <div class="newsDiv">
+                <h1 id="sec_txt3">News</h1>
+                <div id="section_line"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  </div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js">
+
+</script>
+
+
+
+
+</body>
+
+</html>
