@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    outline: none; border:none;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand{
+    font: 30px bold;
+}
+.navbar{
+    background-color: #40454B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar>div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sideNav .container{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #40454B;
+    width: 220px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sideNav .container>div{
+    padding: 20px;
+}
+
+.sideNav .container h3{
+    color: snow;
+    font-size: 24px;
+}
+.sideNav .container h2{
+    color: snow;
+    font-size: 18px;
+}
+
+.classify{
+    font-size: 18px;
+    color: snow;
+}
+.classify>div{
+    padding: 10px;
+}
+
+
+.kolshi_line{
+    height: 2px;
+    background-color: white;
+    width: 70px;
+    border-radius: 70px;
+}
+.input-group{
+    width: 300px;
+}
+.input-group-text{
+    background-color: blue;
+}
+
+.contents{
+    background-color: black;
+    height: 100%;
+    padding-left: 220px;
+}
+
+.contents .container-fluid .row{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contents .container-fluid .row h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: snow;
+}
+
+.contents .container-fluid .row>div{
+    padding: 30px;
+}
+
+
+#section_line{
+    height: 2px;
+    background-color: white;
+    width: 14px;
+    border-radius: 100px;
+}
+
+.dd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd>div{
+    padding: 10px;
+}
+
